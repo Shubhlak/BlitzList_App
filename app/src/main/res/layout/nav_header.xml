@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FAA458"
+    android:padding="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userimage"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:paddingStart="8dp"
+        android:src="@drawable/userfk"
+        android:padding="16dp"
+        android:scaleType="centerCrop"
+        android:backgroundTint="#3F3F3F"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/navhedusername"
+        android:text="User name"
+        android:paddingStart="8dp"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/navhedemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:text="user email"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:textSize="18dp" />
+
+    <!-- Your header content here -->
+
+</LinearLayout>

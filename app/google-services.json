@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "942914319101",
+    "project_id": "blitzlist-app",
+    "storage_bucket": "blitzlist-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942914319101:android:102ae4803ecd17374b4494",
+        "android_client_info": {
+          "package_name": "com.example.blitzlist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcx4oMCyZTUHzGSyi-JOnMgklLeBANXmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

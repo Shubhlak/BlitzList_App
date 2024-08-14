@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#FDCE95"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Ragistration_activity">
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:fontFamily="casual"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userimg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/userfk"
+        android:padding="16dp"
+        android:scaleType="centerCrop"
+        android:backgroundTint="#3F3F3F"
+        />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:orientation="vertical">
+       <Button
+           android:id="@+id/btn_choseimg"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="choose image"
+           android:layout_margin="10dp"
+           android:textSize="18dp"
+           />
+   </LinearLayout>
+
+</LinearLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="6dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtusername"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="enter username"
+            android:textSize="19sp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-black"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="6dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtuseremail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="enter userEmail"
+            android:textSize="19sp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-black"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:passwordToggleEnabled="true"
+        android:layout_marginVertical="6dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtpassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="enter Password "
+            android:textSize="19sp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-black"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:passwordToggleEnabled="true"
+        android:layout_marginVertical="6dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtconfermpassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="renter password"
+            android:textSize="19sp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-black"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="6dp"
+        android:text="Register..!"
+        android:textSize="23dp"
+        android:fontFamily="casual"
+        />
+
+</LinearLayout>

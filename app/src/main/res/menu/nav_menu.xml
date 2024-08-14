@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_home"
+        android:title="home"
+        android:icon="@drawable/home_icon" />
+    <item
+        android:id="@+id/navprofile"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon" />
+
+
+    <item
+        android:id="@+id/navitem_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings_icon"/>
+    <item
+        android:id="@+id/nav_logout"
+        android:title="logOut."
+        android:icon="@drawable/logout_icon"/>
+
+    <item
+        android:id="@+id/itemnothingspecial"
+        android:title="know the developer !"
+        android:icon="@drawable/android_icon"/>
+    <!-- Add more items as needed -->
+</menu>

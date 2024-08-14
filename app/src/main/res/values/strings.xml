@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BlitzList</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="open" />
+    <string name="close">close\n</string>
+    <string name="lightningimage">lightningimage</string>
+</resources>
